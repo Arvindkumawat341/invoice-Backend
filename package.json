@@ -1,0 +1,30 @@
+{
+  "name": "invoice-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.60.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "libreoffice-convert": "^1.6.0",
+    "mongoose": "^8.10.0",
+    "pdf-lib": "^1.17.1",
+    "pizzip": "^3.1.8",
+    "util": "^0.12.5",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
