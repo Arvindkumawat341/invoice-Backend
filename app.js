@@ -19,6 +19,11 @@ app.use(bodyParser.urlencoded({ extended: true}))
 
 app.use(express.static('public'))
 
+app.get("/", (req, res) => {
+  res.send("Hello from Express backend on Vercel!");
+});
+
+
 //Set Routes
 app.use('/',customerRoutes)
 
